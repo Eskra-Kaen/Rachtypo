@@ -1,39 +1,66 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />    
-    <title>Blank Page</title> 
-    <link rel="stylesheet" href="/style.css"/>
-    <script src="/script.js" defer></script>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-        
-    
-    <div class="Desktop1" style="width: 1440px; height: 1024px; position: relative; background: white">
-    <div class="Rectangle2" style="width: 1440px; height: 1024px; left: 0px; top: 0px; position: absolute; background: #EEEEEE"></div>
-    <div class="Rectangle1" style="width: 100px; height: 100px; left: 50px; top: 50px; position: absolute; background: #D9D9D9"></div>
-    <div class="Rectangle4" style="width: 600px; height: 900px; left: 170px; top: 50px; position: absolute; background: white"></div>
-    <div class="Rectangle9" style="width: 557px; height: 648px; left: 193px; top: 277px; position: absolute; background: white; border: 1px black solid"></div>
-    <div class="Rectangle5" style="width: 300px; height: 100px; left: 320px; top: 82px; position: absolute; background: black"></div>
-      
-      
-    
-  <div class="display-area">  
-    <div class="Rectangle3 image-container" id="image-container" style="width: 600px; height: 900px; left: 790px; top: 50px; position: absolute; background: #D9D9D9"></div>
-  </div>  
-    
-      
-  <div class="buttons">
-    <div class="Rectangle6 button" id="page-btn" style="width: 30px; height: 30px; left: 720px; top: 82px; position: absolute; background: black"></div>
-    <div class="Rectangle7 button" id="composer-btn" style="width: 160px; height: 60px; left: 590px; top: 195px; position: absolute; background: black"></div>
-    <div class="Rectangle5 button" id="title-btn" style="width: 300px; height: 100px; left: 320px; top: 82px; position: absolute; background: black"></div>
-    <div class="Rectangle8 button" id="metornom-btn" style="width: 160px; height: 30px; left: 193px; top: 225px; position: absolute; background: black"></div>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+
+<body>
+<div style="width: 100vw; height: 100vh; left: 0px; top: 0px; position: absolute; background: #EEEEEE">
+<div style="width: 1435px; height: 1000px; left: 45px; top: 62px; position: absolute; background: white">
+<div style="width: 1271px; height: 438px; left: 84px; top: 524px; position: absolute; background: white; border: 1px black solid"></div>
+  
+  
+  <div style="width: 525px; height: 175px; left: 457px; top: 102px; position: absolute; background: white; border: 1px black solid"></div>  
+  <div style="width: 50px; height: 50px; left: 1301px; top: 102px; position: absolute; background: white; border: 1px black solid"></div>
+  <div style="width: 290px; height: 110px; left: 1058px; top: 391px; position: absolute; background: white; border: 1px black solid"></div>
+  <div style="width: 373px; height: 70px; left: 84px; top: 431px; position: absolute; background: white; border: 1px black solid"></div>
+  
+  <div class="containert" style="width: 527px; height: 177px; left: 457px; top: 102px; position: absolute;">
+    <div id="container1" class="image-container"></div>
   </div>
-      
-    <div class="234" style="width: 500px; height: 593px; left: 220px; top: 277px; position: absolute; color: black; font-size: 16px; font-family: Pretendard; font-weight: 400; line-height: 60px; word-wrap: break-word">1악보에 존재하는 타이포그래피 요소를 아카이브 해 보았다.<br/>2세르게이 라흐마니노프의 작품을 테마로 하여, 모든 악보에 필수적으로 삽입되는 요소 중 타이포그래피적 특징을 명확하게 가지는 제목, 페이지 넘버, 작곡가 정보, 빠르기말을 스크랩했다.<br/>3각 여백을 누르면 오른쪽 화면에 아카이브된 리스트가 뜨고, 대략적인 출판 정보가 나열된다.<br/>4마음에 드는 조합을 골라 자기만의 고유한 악보 헤더를 만들어 볼 수 있다.</div>
+  <div id="container2" class="description-container" style="height: 60px; left: 240px; top: 680px; position: absolute; color: black; font-weight: 400;"></div>
+  <div class="round1">
+    <button id="buttonT">Change</button>
+  </div>
+  
+  <div class="containerp" style="width: 52px; height: 52px; left: 1301px; top: 102px; position: absolute;">
+    <div id="container3" class="image-container"></div>
+  </div>
+  <div id="container4" class="description-container" style="height: 60px; left: 240px; top: 740px; position: absolute; color: black; font-weight: 400;"></div>
+  <div class="round4">
+    <button id="buttonP">Change</button>
+  </div>
+
+  <div class="containerc" style="width: 292px; height: 112px; left: 1058px; top: 391px; position: absolute;">
+    <div id="container5" class="image-container"></div>
+  </div>
+  <div id="container6" class="description-container" style="height: 60px; left: 240px; top: 800px; position: absolute; color: black; font-weight: 400;"></div>
+  <div class="round3">
+    <button id="buttonC">Change</button>
+  </div>
+  
+  <div class="containerm" style="width: 375px; height: 72px; left: 84px; top: 431px; position: absolute;">
+    <div id="container7" class="image-container"></div>
+  </div>
+  <div id="container8" class="description-container" style="height: 60px; left: 240px; top: 860px; position: absolute; color: black; font-weight: 400;"></div>
+  <div class="round2">
+    <button id="buttonM">Change</button>
+  </div>
+
+  <div class="bonmun" style="width: 1189px; height: 180px; left: 127px; top: 524px; position: absolute; color: black;">1_악보에 존재하는 타이포그래피 요소를 아카이브 해 보았다. 2_세르게이 라흐마니노프의 작품을 테마로 하여, 모든 악보에 필수적으로 삽입되는 요소 중 타이포그래피적 특징을 명확하게 가지는 제목, 페이지 넘버, 작곡가 정보, 빠르기말을 스크랩했다. 3_각 여백을 누르면 오른쪽 화면에 아카이브된 리스트가 뜨고, 대략적인 출판 정보가 나열된다. 4_마음에 드는 조합을 골라 자기만의 고유한 악보 헤더를 만들어 볼 수 있다.</div>
+  <div class="title" style="width: 1189px; height: 60px; left: 127px; top: 704px; position: absolute; color: black; font-weight: 700;">제목</div>
+  <div class="title" style="width: 1189px; height: 60px; left: 128px; top: 764px; position: absolute; color: black; font-weight: 700;">페이지</div>
+  <div class="title" style="width: 1189px; height: 60px; left: 128px; top: 824px; position: absolute; color: black; font-weight: 700;">작곡가</div>
+  <div class="title" style="width: 1189px; height: 60px; left: 129px; top: 884px; position: absolute; color: black; font-weight: 700;">빠르기말</div>  
+  
 </div>
-    
-  </body> 
+</div> 
+
+<script src="script.js"></script>  
+  
+</body>
 </html>
