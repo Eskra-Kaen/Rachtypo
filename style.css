@@ -1,52 +1,115 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  width: 100vw;
-  height: 100vh;
+  background-color: #dedede;
+  font-size: 16px;
+  font-family: Pretendard;
+  line-height: 60px;
+  word-wrap: break-word"
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  padding: 20px;
+bonmun {
+  font-weight: 400;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 
-.button {
-  background-color: black;
-  cursor: pointer;
+.containert {
+  width: 175px;
+  height: 60px;
+  overflow: hidden; /* 넘치는 부분을 숨김 */
+  position: relative; /* 자식 요소에 상대적 위치를 지정 */
+  vertical-align: middle;
 }
-
-.display-area {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.containerp {
+  border: 1px solid #ccc;
+  width: 50px;
+  height: 50px;
 }
-
-.image-container {
-  background-color: #f0f0f0;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+.containerc {
+  border: 1px solid #ccc;
+  width: 290px; height: 110px;
+}
+.containerm {
+  border: 1px solid #ccc;
+  width: 373px; height: 70px;
 }
 
 .image-container img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 컨테이너에 맞게 잘려서 들어감 */
+  position: absolute; /* 이미지를 컨테이너에 고정 */
+  top: 0;
+  left: 0;
+}
+
+.description-container {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+button1:hover {
   cursor: pointer;
+  transition: background-color 0.5s, color 0.5s; 
+}
+
+button2:hover {
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s; 
+}
+
+button3:hover {
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s; 
+}
+
+button4:hover {
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s; 
+}
+
+.round1 button {
+  padding: 5px 10px;
+  left: 457px; top: 286px; position: absolute;
+  display: inline-block;
+  font-family: Pretendard;
+  font-size: 12px;
+  outline: none;
+  color: black;
+  border-radius: 40px;
+  background: white;
+}
+
+.round2 button {
+  padding: 5px 10px;
+  left: 84px; top: 391px; position: absolute;
+  display: inline-block;
+  font-family: Pretendard;
+  font-size: 12px;
+  outline: none;
+  color: black;
+  background: white;
+  border-radius: 40px;
+}
+
+.round3 button {
+  padding: 5px 10px;
+  left: 1287px; top: 355px; position: absolute;
+  display: inline-block;
+  font-family: Pretendard;
+  font-size: 12px;
+  outline: none;
+  color: black;
+  background: white;
+  border-radius: 40px;
+}
+
+.round4 button {
+  padding: 5px 10px;
+  left: 1290px; top: 162px; position: absolute;
+  display: inline-block;
+  font-family: Pretendard;
+  font-size: 12px;
+  outline: none;
+  color: black;
+  background: white;
+  border-radius: 40px;
 }
