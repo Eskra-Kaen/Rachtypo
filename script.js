@@ -1,10 +1,10 @@
 const data = {
   T: [
-    { img: "/images/Piano Con_1_1_1920y.png", desc: "Piano Con_1_1_1920y" },
-    { img: "/images/Piano Con_1_1_1947y.png", desc: "Piano Con_1_1_1947y" },
-    { img: "/images/Piano Con_1_1_1971y.png", desc: "Piano Con_1_1_1971y" },
-    { img: "/images/Piano Con_2_1_1947y.png", desc: "Piano Con_2_1_1947y" },
-    { img: "/images/Symphony_1_1_1947y.png", desc: "Symphony_1_1_1947y" }
+    { img: "/images/title/Piano Con_1_1_1920y.png", desc: "Piano Con_1_1_1920y" },
+    { img: "/images/title/Piano Con_1_1_1947y.png", desc: "Piano Con_1_1_1947y" },
+    { img: "/images/title/Piano Con_1_1_1971y.png", desc: "Piano Con_1_1_1971y" },
+    { img: "/images/title/Piano Con_2_1_1947y.png", desc: "Piano Con_2_1_1947y" },
+    { img: "/images/title/Symphony_1_1_1947y.png", desc: "Symphony_1_1_1947y" }
   ],
   P: [
     { img: "https://via.placeholder.com/150?text=P1", desc: "Description for P1" },
