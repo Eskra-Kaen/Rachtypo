@@ -1,10 +1,10 @@
 const data = {
   T: [
-    { img: "images/title/Piano Con_1_1_1920y.png", desc: "Piano Con_1_1_1920y" },
-    { img: "images/title/Piano Con_1_1_1947y.png", desc: "Piano Con_1_1_1947y" },
-    { img: "images/title/Piano Con_1_1_1971y.png", desc: "Piano Con_1_1_1971y" },
-    { img: "images/title/Piano Con_2_1_1947y.png", desc: "Piano Con_2_1_1947y" },
-    { img: "images/title/Symphony_1_1_1947y.png", desc: "Symphony_1_1_1947y" }
+    { img: "https://via.placeholder.com/150?text=T1", desc: "Description for T1" },
+    { img: "https://via.placeholder.com/150?text=T2", desc: "Description for T2" },
+    { img: "https://via.placeholder.com/150?text=T3", desc: "Description for T3" },
+    { img: "https://via.placeholder.com/150?text=T4", desc: "Description for T4" },
+    { img: "https://via.placeholder.com/150?text=T5", desc: "Description for T5" }
   ],
   P: [
     { img: "https://via.placeholder.com/150?text=P1", desc: "Description for P1" },
@@ -26,6 +26,13 @@ const data = {
     { img: "https://via.placeholder.com/150?text=M3", desc: "Description for M3" },
     { img: "https://via.placeholder.com/150?text=M4", desc: "Description for M4" },
     { img: "https://via.placeholder.com/150?text=M5", desc: "Description for M5" }
+  ],
+  S: [
+    { img: "https://via.placeholder.com/150?text=M1", desc: "Description for S1" },
+    { img: "https://via.placeholder.com/150?text=M2", desc: "Description for S2" },
+    { img: "https://via.placeholder.com/150?text=M3", desc: "Description for S3" },
+    { img: "https://via.placeholder.com/150?text=M4", desc: "Description for S4" },
+    { img: "https://via.placeholder.com/150?text=M5", desc: "Description for S5" }
   ]
 };
 
@@ -52,3 +59,4 @@ document.getElementById("buttonT").addEventListener("click", () => handleButtonC
 document.getElementById("buttonP").addEventListener("click", () => handleButtonClick('P', 'container3', 'container4'));
 document.getElementById("buttonC").addEventListener("click", () => handleButtonClick('C', 'container5', 'container6'));
 document.getElementById("buttonM").addEventListener("click", () => handleButtonClick('M', 'container7', 'container8'));
+document.getElementById("buttonS").addEventListener("click", () => handleButtonClick('S', 'container9', 'container10'));
