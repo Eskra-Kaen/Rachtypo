@@ -1,8 +1,8 @@
 body {
   background-color: #dedede;
-  font-size: 16px;
+  font-size: 12px;
   font-family: Pretendard;
-  line-height: 60px;
+  line-height: 50px;
   word-wrap: break-word"
 }
 
@@ -21,13 +21,29 @@ bonmun {
 .containerp {
   width: 50px;
   height: 50px;
+  overflow: hidden; /* 넘치는 부분을 숨김 */
+  position: relative; /* 자식 요소에 상대적 위치를 지정 */
+  vertical-align: middle;
 }
 .containerc {
   width: 290px; height: 110px;
+  overflow: hidden; /* 넘치는 부분을 숨김 */
+  position: relative; /* 자식 요소에 상대적 위치를 지정 */
+  vertical-align: middle;
 }
 .containerm {
   width: 373px; height: 70px;
+  overflow: hidden; /* 넘치는 부분을 숨김 */
+  position: relative; /* 자식 요소에 상대적 위치를 지정 */
+  vertical-align: middle;
 }
+.containers {
+  width: 373px; height: 70px;
+  overflow: hidden; /* 넘치는 부분을 숨김 */
+  position: relative; /* 자식 요소에 상대적 위치를 지정 */
+  vertical-align: middle;
+}
+
 
 .image-container img {
   width: 100%;
@@ -63,6 +79,11 @@ button4:hover {
   transition: background-color 0.5s, color 0.5s; 
 }
 
+button5:hover {
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s; 
+}
+
 .round1 button {
   padding: 5px 10px;
   left: 457px; top: 286px; position: absolute;
@@ -77,7 +98,7 @@ button4:hover {
 
 .round2 button {
   padding: 5px 10px;
-  left: 84px; top: 391px; position: absolute;
+  left: 84px; top: 435px; position: absolute;
   display: inline-block;
   font-family: Pretendard;
   font-size: 12px;
@@ -89,7 +110,7 @@ button4:hover {
 
 .round3 button {
   padding: 5px 10px;
-  left: 1287px; top: 355px; position: absolute;
+  left: 1287px; top: 395px; position: absolute;
   display: inline-block;
   font-family: Pretendard;
   font-size: 12px;
@@ -102,6 +123,18 @@ button4:hover {
 .round4 button {
   padding: 5px 10px;
   left: 1290px; top: 162px; position: absolute;
+  display: inline-block;
+  font-family: Pretendard;
+  font-size: 12px;
+  outline: none;
+  color: black;
+  background: white;
+  border-radius: 40px;
+}
+
+.round5 button {
+  padding: 5px 10px;
+  left: 1220px; top: 701px; position: absolute;
   display: inline-block;
   font-family: Pretendard;
   font-size: 12px;
